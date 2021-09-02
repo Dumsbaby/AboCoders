@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800,900&display=swap');
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+}
+
+.Header_section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #416a59;
+    font-size: large;
+    top: 0px;
+    left: 0px
+}
+
+.headshot{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+
+}
+
+.headshot img{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.profile{
+    position: absolute;
+    top: 450px;
+    left: 478px;
+}
+
+.profile h2{
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile h2 span{
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+.contact-info{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+}
+
+.contact-info li{
+    display: inline;
+}
+
+.main{
+    position: absolute;
+    /* left: 0px; */
+    top: 102%;
+    padding: 5px;
+    /* width: 100%; */
+    height: auto;
+    font-size:medium; 
+    text-align: justify;
+    line-height: 30px;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.about-me{
+    text-align: center;
+}
+
+.education{
+    line-height: 15px;
+}
+.career li {
+    line-height: 10px ;
+}
+
+.career li p{
+    line-height: 30px;
+}
+
+.vertical {
+    border-left: 6px solid coral;
+    height: 38%;
+    position: absolute;
+    left: 25px;
+}
+
+.vertical1 {
+        border-left: 6px solid coral;
+        height: 14.2%;
+        position: absolute;
+        left: 25px;
+
+}
+
+.skills .rule{
+
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .rule h4{
+
+    font-weight: 500;
+}
+.skills .rule .r{
+
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: gainsboro;
+}
+.skills .rule .r div {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: coral;
+}
+
+@media (min-width : 1000px), (max-width: 1200px)
+{
+    html{
+        height: 100%;
+        width: 100%;
+    }
+    
+    body {
+        padding: 0px;
+        margin: 0px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        color: coral;
+    }
+    
+    .Header_section {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #416a59;
+        font-size: large;
+        top: 0px;
+        left: 0px
+    }
+    
+    .headshot{
+        position: absolute;
+        top: 50px;
+        left: 450px;
+    
+    }
+    
+    .headshot img{
+        position: absolute;
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+    }
+    
+    .profile{
+        position: absolute;
+        top: 450px;
+        left: 478px;
+    }
+    
+    .profile h2{
+        font-size: 1.5em;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 1.4em;
+    }
+    
+    .profile h2 span{
+        font-weight: 200;
+        font-size: 0.8em;
+    }
+    
+    .contact-info{
+        position: absolute;
+        top: 600px;
+        left: 200px;
+    }
+    
+    .contact-info li{
+        display: inline;
+    }
+    .main{
+        position: absolute;
+        /* left: 0px; */
+        top: 102%;
+        padding: 5px;
+        /* width: 100%; */
+        height: auto;
+        font-size:medium; 
+        text-align: justify;
+        line-height: 30px;
+        padding: 20px;
+        line-height: 30px;
+    }
+    
+    .about-me{
+        text-align: center;
+    }
+    
+    .education{
+        line-height: 15px;
+    }
+    .career li {
+        line-height: 10px ;
+    }
+    
+    .career li p{
+        line-height: 30px;
+    }
+    
+    .vertical {
+        border-left: 6px solid coral;
+        height: 38%;
+        position: absolute;
+        left: 25px;
+    }
+    
+    .vertical1 {
+            border-left: 6px solid coral;
+            height: 14.2%;
+            position: absolute;
+            left: 25px;
+    
+    }
+    
+    .skills .rule{
+    
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .rule h4{
+    
+        font-weight: 500;
+    }
+    .skills .rule .r{
+    
+        position: relative;
+        width: 100%;
+        height: 10px;
+        background: gainsboro;
+    }
+    .skills .rule .r div {
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: coral;
+    }
+}
+    
+
+@media (min-width : 720px), (max-width : 1000px){
+
+    html{
+        height: 100%;
+        width: 100%;
+    }
+    
+    body {
+        padding: 0px;
+        margin: 0px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        color: coral;
+    }
+    
+    .Header_section {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #416a59;
+        font-size: medium;
+        top: 0px;
+        left: 0px
+    }
+    
+    .headshot{
+        position: absolute;
+        top: 100px;
+        left: 250px;
+    
+    }
+    
+    .headshot img{
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    
+    .profile{
+        position: absolute;
+        top: 400px;
+        left: 230px;
+    }
+    
+    .profile h2{
+        font-size: 1.5em;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 1.4em;
+    }
+    
+    .profile h2 span{
+        font-weight: 200;
+        font-size: 0.8em;
+    }
+    
+    .contact-info{
+        position: absolute;
+        top: 510px;
+        left: 0px;
+        font-size: 15px;
+    }
+    
+    .contact-info li{
+        display: inline;
+    }
+    .main{
+        position: absolute;
+        /* left: 0px; */
+        top: 102%;
+        padding: 5px;
+        /* width: 100%; */
+        height: auto;
+        font-size:medium; 
+        text-align: justify;
+        line-height: 30px;
+        padding: 20px;
+        line-height: 30px;
+    }
+    
+    .about-me{
+        text-align: center;
+    }
+    
+    .education{
+        line-height: 15px;
+    }
+    .career li {
+        line-height: 10px ;
+    }
+    
+    .career li p{
+        line-height: 30px;
+    }
+    
+    .vertical {
+        border-left: 6px solid coral;
+        height: 38%;
+        position: absolute;
+        left: 25px;
+    }
+    
+    .vertical1 {
+        border-left: 6px solid coral;
+        height: 14.2%;
+        position: absolute;
+        left: 25px;
+    
+    }
+    
+    .skills .rule{
+    
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .rule h4{
+    
+        font-weight: 500;
+    }
+    .skills .rule .r{
+    
+        position: relative;
+        width: 100%;
+        height: 10px;
+        background: gainsboro;
+    }
+    .skills .rule .r div {
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: coral;
+    }  
+}
+
+@media (min-width : 320px), (max-width : 720px) 
+{
+    html{
+        height: 100%;
+        width: 100%;
+    }
+    
+    body {
+        padding: 0px;
+        margin: 0px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        color: coral;
+    }
+    
+    .Header_section {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #416a59;
+        font-size: medium;
+        top: 0px;
+        left: 0px
+    }
+    
+    .headshot{
+        position: absolute;
+        top: 180px;
+        left: 180px;
+    
+    }
+    
+    .headshot img{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    
+    .profile{
+        position: absolute;
+        top: 380px;
+        left: 150px;
+    }
+    
+    .profile h2{
+        font-size: 1.2em;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 1.4em;
+    }
+    
+    .profile h2 span{
+        font-weight: 200;
+        font-size: 0.8em;
+    }
+    
+    .contact-info{
+        position: absolute;
+        top: 480px;
+        left: 8px;
+        font-weight: 10px;
+    }
+    
+    /* .contact-info li{ */
+        /* display: */
+    /* } */
+    .main{
+        position: absolute;
+        /* left: 0px; */
+        top: 102%;
+        padding: 5px;
+        /* width: 100%; */
+        height: auto;
+        font-size:medium; 
+        text-align: justify;
+        line-height: 30px;
+        padding: 20px;
+        line-height: 30px;
+    }
+    
+    .about-me{
+        text-align: center;
+    }
+    
+    .education{
+        line-height: 15px;
+        /* font-size: small; */
+    }
+    .career li {
+        line-height: 10px ;
+    }
+    
+    .career li p{
+        line-height: 30px;
+    }
+    
+    .vertical {
+        border-left: 6px solid coral;
+        height: 38%;
+        position: absolute;
+        left: 25px;
+    }
+    
+    .vertical1 {
+        border-left: 6px solid coral;
+        height: 14.2%;
+        position: absolute;
+        left: 25px;
+    
+    }
+    
+    .skills .rule{
+    
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .rule h4{
+    
+        font-weight: 500;
+    }
+    .skills .rule .r{
+    
+        position: relative;
+        width: 100%;
+        height: 10px;
+        background: gainsboro;
+    }
+    .skills .rule .r div {
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: coral;
+    }    
+}
+    
+
